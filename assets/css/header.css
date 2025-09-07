@@ -19,6 +19,10 @@ header {
     font-size: 0.87rem;
 }
 
+.jump-to-links:hover {
+    color: #757575;
+}
+
 .return-home {
     color: white;
     background-color: #86CA40;
@@ -26,4 +30,8 @@ header {
     font-weight: 500;
     padding: 0.6rem;
     border-radius: 5px;
+}
+
+.return-home:hover {
+    background-color: #98CB61;
 }
