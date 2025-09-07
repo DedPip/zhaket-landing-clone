@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 @font-face {
   font-family: 'Rubik';
   src: url('../font/Rubik-VariableFont_wght.ttf') format('truetype-variations');
@@ -11,6 +5,18 @@
   font-style: normal;   
 }
 
-h1 {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
     font-family: 'Rubik', sans-serif;
+    direction: rtl;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
 }
