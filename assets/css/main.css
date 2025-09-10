@@ -10,6 +10,7 @@ main {
     justify-content: space-between;
     max-width: 1200px;
     padding: 0rem 2rem 0rem 2rem;
+    margin-bottom: 9rem;
 }
 
 .heading-container .right-side {
@@ -73,7 +74,202 @@ main {
 }
 
 .shop-case {
-    
     max-width: 600px;
     width: 100%;
+}
+
+.best-product-container {
+    background: url(../imgs/iraniBg.svg);
+    background-size: 300px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 10rem 2rem 2.5rem 2rem;
+}
+
+.best-product-content {
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(96, 96, 96, .13);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7.5rem 2.5rem 3rem 2.5rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.best-product-content .right-side {
+    max-width: 58%;
+    padding: 0rem 1rem;
+}
+
+.best-product-content .right-side img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.best-product-content .left-side {
+    max-width: 41%;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.best-product-content .left-side .top-part {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.best-product-content .title {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.best-product-content .title h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #606060;
+}
+
+
+.best-product-content .title p {
+    font-size: .87rem;
+    color: #707070;
+}
+
+.best-product-content .discount-margin-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .best-product-content .discount-margin {
+    background-color: #fc0;
+    box-shadow: 0 0 30px rgb(96 96 96/10%);
+    color: #fff;
+    position: relative;
+    min-width: 115px;
+    max-width: 115px;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 1rem 0rem;
+}      
+
+.best-product-content .discount-margin span {
+    position: absolute;
+    font-size: .7rem;
+    font-weight: 400;
+    padding: .4rem .7rem;
+    background-color: #fff;
+    color: #707070;
+    box-shadow: 0 0 30px rgb(96 96 96/10%);
+    border-radius: 5px;
+    min-width: 105px;
+    text-align: center;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, -70%);
+}
+
+.best-product-content .bottom-part
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discount-amount-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem
+}
+
+.prcntg {
+    background-color: #ffe4d9;
+    color: #ff4b55;
+    font-size: 1.7rem;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    border-radius: 8px;
+    padding: .45rem 1.2rem;
+}
+
+.price-contianer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: .3rem;
+    margin-bottom: -.5rem;
+}
+
+.price-contianer .old-price {
+    text-decoration: line-through; 
+    color: #9a9a9a;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+
+.price-contianer .new-price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.new-price-container .new-price {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.new-price-container .currency {
+    font-size: .9rem;
+    color: #000;
+    font-weight: 300;
+}
+
+.bottom-part .buy-dload-container {
+    background-color: #8ed557;
+    color: #fff;
+    font-size: .87rem;
+    font-weight: 700;
+    padding: .7rem 1.25rem;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .15);
+
+}
+
+.best-product-content .absolute-area {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .1);
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+.best-product-content .absolute-area .content {
+    font-size: 1.4rem;
+    background-color: #ff4b55;
+    color: white;
+    padding: .75rem 1.12rem;
+    border-radius: 5px;
 }
