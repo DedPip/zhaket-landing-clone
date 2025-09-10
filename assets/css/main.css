@@ -9,6 +9,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     max-width: 1200px;
+    width: 100%;
     padding: 0rem 2rem 0rem 2rem;
     margin-bottom: 9rem;
 }
@@ -244,7 +245,7 @@ main {
     font-weight: 300;
 }
 
-.bottom-part .buy-dload-container {
+.bottom-part .buy-dload-btn {
     background-color: #8ed557;
     color: #fff;
     font-size: .87rem;
@@ -252,7 +253,10 @@ main {
     padding: .7rem 1.25rem;
     border-radius: 5px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .15);
+}
 
+.bottom-part .buy-dload-btn:hover {
+    background-color: #73b540;
 }
 
 .best-product-content .absolute-area {
@@ -273,3 +277,93 @@ main {
     padding: .75rem 1.12rem;
     border-radius: 5px;
 }
+
+.bazzar-container {
+    background: url(../imgs/iraniBg.svg);
+    background-size: 300px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 9rem 2rem 2.5rem 2rem;
+    background-color: #fff;
+    background-position: top 200px right 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bazzar-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bazzar-content .bazzar-title-and-timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bazzar-title-and-timer .title {
+    display: flex;  
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: .7rem;
+    width: 70%;
+}
+
+.title img {
+    max-width: 60px;
+    width: 100%;
+}
+
+.title .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: .5rem;
+}
+
+.text span {
+    font-size: 1.37rem;
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 1rem;
+    color: #494b49;
+}
+
+.bazzar-title-and-timer .timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+}
+
+.timer .time-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fc0;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .08);
+    min-width: 55px;
+    padding: .3rem .1rem .2rem .1rem;
+}
+
+.time-container .time-unit {
+    font-size: .87rem;
+}
+
+.time-container .time-count {
+    font-size: 1.87rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+    margin-right: -.4rem;
+    text-align: center;
+}
+
