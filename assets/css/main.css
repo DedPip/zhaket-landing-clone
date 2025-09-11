@@ -294,7 +294,7 @@ main {
     background: url(../imgs/iraniBg.svg);
     background-size: 300px;
     width: 100%;
-    padding: 9rem 2rem 10rem 2rem;
+    padding: 9rem 2rem 3.125rem 2rem;
     background-color: #fff;
     background-position: top 200px right 0;
     background-size: cover;
@@ -632,3 +632,156 @@ main {
 .price-info-container .left-side-button:hover {
     background-color: #73b540;
 }
+
+/* discount section */
+
+.discount-codes-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5rem 2rem 3.75rem 5rem;
+    background-image: url(../imgs/productsBG.svg);
+    
+}
+
+.discount-codes-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .13);
+    border-radius: 10px;
+    position: relative;
+}
+
+.discount-absolute-area {
+    position: absolute;
+    background-color: #fff;
+    padding: .27rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.218);
+    border-radius: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.discount-absolute-area .absolute-container {
+    border-radius: 5px;
+    background-color: #FF4B56;
+    padding: 1rem 2rem;
+}
+
+.absolute-container span {
+    font-size: 1.375rem;
+    color: white;
+    font-weight: 400;
+}
+
+
+.discount-codes-content .container {
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0rem;
+
+    width: 100%;
+}
+
+.discount-codes-content .container .content {
+    display: flex;
+    flex-direction: row;
+    width:55%;
+    justify-content: start;
+    align-items: top;
+    gap: 2rem;
+
+}
+
+#middle-discount-container{
+    background-color: #fafafa;
+}
+
+#middle-discount {
+    flex-direction: row-reverse;
+}
+
+
+.content .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.left-side .top-header {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #606060;
+}
+
+.top-header span {
+    color: #ff4b57f3;
+}
+
+.discount-codes-content .left-side .bottom-part {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.bottom-part .code-container {
+    display: flex;
+    border: 1px dashed #707070;
+    gap: .7rem;
+    width: max-content;
+    height: 50px;
+    margin: 0rem 0rem 0rem 1rem;
+    border-radius: 5px;
+}
+
+.code-container .code-itself {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.code-itself span {
+    font-size: .87rem;
+    color: #212925;
+    padding: 0rem .8rem 0rem 0rem;
+
+}
+
+.code-container .copy-icon-container {
+    background-color: #eaeaea;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 0rem .8rem;
+   
+}
+
+.bottom-part a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ed557;
+    border-radius: 5px;
+    transition: all .2s linear;    
+}
+
+.bottom-part a:hover {
+    background-color: #73b540;
+}
+
+.bottom-part .ad-link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: .87rem;
+    padding: 0rem 1rem;
+    gap: 1rem;
+}
+
