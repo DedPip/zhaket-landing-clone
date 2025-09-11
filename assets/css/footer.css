@@ -90,3 +90,11 @@
         font-size: .8rem;
     }
 }
+
+@media (max-width: 750px) {
+    .absolute-jumpup-container {
+        padding: .4rem .5rem;
+        right: 1rem;
+        bottom: 1rem;
+    }
+}
