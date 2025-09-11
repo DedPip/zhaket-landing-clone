@@ -5,16 +5,23 @@ main {
 }
 
 .heading-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0rem 2rem 0rem 2rem;
+    margin-bottom: 9rem;
+}
+
+
+.heading-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-width: 1200px;
     width: 100%;
-    padding: 0rem 2rem 0rem 2rem;
-    margin-bottom: 9rem;
 }
 
-.heading-container .right-side {
+.heading-content .right-side {
     max-width: 33.3333%;
     display: flex;
     flex-direction: column;
@@ -28,7 +35,7 @@ main {
     margin-bottom: .7rem;
 }
 
-.heading-container h1 {
+.heading-content h1 {
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
@@ -36,7 +43,7 @@ main {
     margin-bottom: 2.6rem;
 }
 
-.heading-container p {
+.heading-content p {
     line-height: 1.8em;
     font-size: .87rem;
     text-align: justify;
@@ -70,7 +77,7 @@ main {
     margin-top: -.3rem;
 }
 
-.heading-container .left-side {
+.heading-content .left-side {
     max-width: 66.6666%;
 }
 
@@ -80,14 +87,17 @@ main {
 }
 
 .best-product-container {
+    display: flex;
+    justify-content: center;
     background: url(../imgs/iraniBg.svg);
     background-size: 300px;
-    max-width: 1200px;
     width: 100%;
     padding: 10rem 2rem 2.5rem 2rem;
 }
 
 .best-product-content {
+    max-width: 1200px;
+    width: 100%;
     background-color: #fff;
     box-shadow: 0 0 50px rgba(96, 96, 96, .13);
     display: flex;
@@ -111,7 +121,7 @@ main {
 
 .best-product-content .left-side {
     max-width: 41%;
-    padding: 0rem 1rem;
+    padding: 0rem 1rem 0rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -145,7 +155,7 @@ main {
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
     .best-product-content .discount-margin {
@@ -183,7 +193,7 @@ main {
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -279,9 +289,10 @@ main {
 }
 
 .bazzar-container {
+    display: flex;
+    justify-content: center;
     background: url(../imgs/iraniBg.svg);
     background-size: 300px;
-    max-width: 1200px;
     width: 100%;
     padding: 9rem 2rem 10rem 2rem;
     background-color: #fff;
@@ -293,8 +304,10 @@ main {
 .bazzar-content {
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
     width: 100%;
     row-gap: 5rem;
+    column-gap: none;
 }
 
 .bazzar-content .bazzar-title-and-timer {
@@ -429,7 +442,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     justify-content: center;
-    padding: 2rem 1rem 2.5rem;
+    padding: 3rem 0rem 2.5rem;
     border: 3px solid #fac803;
     background-color: #fff;
     border-radius: 10px;
@@ -464,7 +477,7 @@ main {
 }
 
 .standard-image-size {
-    max-width: 330px;
+    max-width: 355px;
     width: 100%;
 }
 
