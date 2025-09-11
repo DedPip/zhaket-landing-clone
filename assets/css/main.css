@@ -1121,3 +1121,20 @@ main {
         margin: none;
     }
 }
+
+/* special section responsive */
+@media (max-width: 950px) {
+    .special-discount-content .content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 710px) {
+    .special-discount-content .content {
+        width: 95%;
+        padding: 2rem 1.3rem;
+        gap: .7rem;
+    }
+}
+
+

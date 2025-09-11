@@ -83,3 +83,10 @@
 .footer-text-container a {
     font-weight: 700;
 }
+
+/* footer responsive */
+@media (max-width:400px) {
+    .content .footer-text-container p {
+        font-size: .8rem;
+    }
+}
