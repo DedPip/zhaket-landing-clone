@@ -70,6 +70,11 @@ header {
     .header-content {
         flex-direction: row-reverse;
     }
+
+    .header-content .right-side {
+    max-width: 50%;
+    }
+
     .header-content .left-side {
         display: none;
     }
