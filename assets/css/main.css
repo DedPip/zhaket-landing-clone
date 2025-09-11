@@ -1076,3 +1076,48 @@ main {
         font-weight: 400;
     }
 }
+
+/* group discount section */
+@media (max-width: 1000px)
+{
+    .discount-codes-container {
+        padding: 5rem 1rem 5rem 1rem;
+    }
+    .discount-absolute-area
+    {
+        transform: translate(-50%, -80%);
+    }
+    .discount-absolute-area .absolute-content {
+        padding: .5rem 1rem;
+        text-wrap: nowrap;
+    }
+    .absolute-content span {
+        font-size: 1.1rem;
+    }
+    
+    .discount-codes-content .container{
+        padding: 2.5rem 0rem;
+    }
+
+    .discount-codes-content .container .content, #middle-discount  {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    
+    .left-side .top-header  {
+        text-align: center;
+    }
+
+    .discount-codes-content .left-side .bottom-part {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: .6rem;
+    }
+
+    .bottom-part .code-container {
+        height: 80px;
+        margin: none;
+    }
+}
