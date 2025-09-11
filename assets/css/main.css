@@ -758,7 +758,6 @@ main {
     justify-content: center;
     align-items: center ;
     padding: 0rem .8rem;
-   
 }
 
 .bottom-part a {
@@ -864,4 +863,37 @@ main {
     left: 0;
     transform: translate(30%, 40%);
     background-color: #fff;
+}
+
+@media (max-width: 992px) {
+
+    .heading-container {
+        padding: 3rem 1rem 0rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .heading-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading-content .right-side {
+        max-width: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lets-go-button {
+        margin: auto;
+    }
+
+    .heading-content p {
+        text-align: center;
+        max-width: 700px;
+    }
+
+    .heading-content .left-side {
+        max-width: none;
+    }
 }
