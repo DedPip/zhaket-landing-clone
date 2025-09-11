@@ -43,4 +43,34 @@ header {
 
 .return-home:hover {
     background-color: #98CB61;
+}   
+
+.menu-icon-container {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.menu-icon-container img {
+    width: 30px;
+    color: white;
+}
+
+
+@media (max-width: 991px) {
+    .menu-icon-container {
+        display: inherit;
+    }
+    header {
+        background-image: none;
+        background-color: #8ed557;
+    }
+    .header-content {
+        flex-direction: row-reverse;
+    }
+    .header-content .left-side {
+        display: none;
+    }
 }
