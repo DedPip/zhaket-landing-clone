@@ -32,6 +32,10 @@ button {
     cursor: pointer;
 }
 
-li, ul {
+li, ul{
+    all: unset;
+}
+
+input {
     all: unset;
 }
