@@ -164,7 +164,7 @@ main {
     justify-content: end;
 }
 
-    .best-product-content .discount-margin {
+.best-product-content .discount-margin {
     background-color: #fc0;
     box-shadow: 0 0 30px rgb(96 96 96/10%);
     color: #fff;
@@ -444,15 +444,15 @@ main {
 /* PRODUCTS */
 
 .products-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     padding: 3rem 0rem 2.5rem;
     border: 3px solid #fac803;
     background-color: #fff;
     border-radius: 10px;
-    row-gap: 5rem;
+    row-gap: 2rem;
 }
 
 .product {
@@ -1017,3 +1017,62 @@ main {
     }
 }
 
+/* products responsive */
+
+@media (max-width: 1140px) {
+    .bazzar-container{
+        padding: 9rem 1rem 3.125rem 1rem;
+    }
+    .standard-image-size {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 870px) {
+
+    .bazzar-content {
+        row-gap: 3rem;
+    }
+
+    .bazzar-content .bazzar-title-and-timer 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .bazzar-title-and-timer .title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title .text {
+        align-items: center;
+    }
+
+    .text p, .text span {
+        text-align: center;
+    }
+
+    .products-content {
+        padding: 1.5rem 1rem 2.5rem 1rem;
+        border: 1px solid #fac903;
+    }
+
+    .standard-image-size {
+        max-width: 500px;
+    }
+
+    .days-of-week-container a {
+        font-size: .7rem;
+        text-shadow: none;
+    }
+}
+
+@media (max-width: 495px) {
+    .days-of-week-container a {
+        font-size: .5rem;
+        font-weight: 400;
+    }
+}
